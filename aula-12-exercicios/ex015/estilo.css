@@ -1,0 +1,50 @@
+body {
+    background: rgb(82, 82, 255);
+    font: normal 16pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.300);
+}
+
+#btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(82, 82, 255);
+    color: white;
+}
+
+#msg {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#foto {
+    text-align: center;
+}
+
+#imagem {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 10pt;
+}
+
