@@ -25,16 +25,11 @@ section {
     color: white;
 }
 
-#msg {
-    text-align: center;
-    margin-top: 20px;
-}
-
 #foto {
     text-align: center;
 }
 
-#imagem {
+img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
