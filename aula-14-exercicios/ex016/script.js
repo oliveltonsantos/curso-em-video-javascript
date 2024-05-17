@@ -33,7 +33,8 @@ function contar() {
             // Contagem regressiva
             for (let c = i; c >= f; c -= p) {
                 res.innerHTML += `${c} \u{1f449}`
-            }
+
+                
         }
         res.innerHTML += `\u{1F3C1} FIM!`
     }
