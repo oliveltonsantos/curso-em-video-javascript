@@ -11,6 +11,8 @@ function adicionar() {
     }
 }
 
+// Verifica se a caixa está vazia ou se o valor está entre 1 e 100.
+
 function isNumero(n) {
     if (Number(n) >= 1 && Number(n) <= 100) {
         return true
@@ -18,6 +20,8 @@ function isNumero(n) {
         return false
     }
 }
+
+// Verifica se o valor já foi adicionado na lista.
 
 function inLista(n, l) {
     if (l.indexOf(Number(n)) != -1) {
