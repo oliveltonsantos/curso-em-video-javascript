@@ -46,19 +46,27 @@ function finalizar() {
         let tot = valores.length // saber o total de elementos
         let maior = valores[0]
         let menor = valores[0]
+        let soma = 0
+        let media = 0
 
+        // Laço de percurso para ler o vetor inteiro
         for (let pos in valores) {
+            soma += valores[pos]
             if (valores[pos] > maior)
                 maior = valores[pos]
             if (valores[pos] < menor)
                 menor = valores[pos]
         }
 
+        media = soma / tot
+
         res.innerHTML = '' // zerar o valor de res
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
         res.innerHTML += `<p>O maior valor é ${maior}.</p>`
         res.innerHTML += `<p>O menor valor é ${menor}.</p>`
-        
+        res.innerHTML += `<p>A soma dos valores é ${soma}.</p>`
+        res.innerHTML += `<p>A média dos valores é ${media}.</p>`
+
     }
 }
 
