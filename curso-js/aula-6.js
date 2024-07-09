@@ -13,3 +13,4 @@ listaNotas.map((itemgenerico) => {
 })
 
 console.log(lista.length)
+
