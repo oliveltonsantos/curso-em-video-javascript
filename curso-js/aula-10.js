@@ -37,3 +37,6 @@ function mediaNota(nota1, nota2, nota3) {
 // A função mediaNota está retornando o valor para a variável mediaRes
 let mediaRes = mediaNota(23, 10, 60)
 
+
+
+
