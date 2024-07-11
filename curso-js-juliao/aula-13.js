@@ -51,3 +51,4 @@ let pessoa2 = {
 
 let lista = [pessoa1, pessoa2]
 console.log(lista)
+
